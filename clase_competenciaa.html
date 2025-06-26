@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Competencia de Jugadores</title>
+<link rel="stylesheet" href="clase_competencia.css" />
+</head>
+<body>
+
+
+<h1>Competencia de Jugadores</h1>
+
+<div id="formulario-inicial">
+  <label for="num-jugadores">¿Cuántos competidores van a participar?</label><br />
+  <input type="number" id="num-jugadores" min="1"/>
+  <button id="btn-confirmar">Confirmar</button>
+</div>
+
+
+<form id="form-jugadores" style="display:none;">
+  <h2>Ingrese el número que representa a cada jugador</h2>
+  <div id="inputs-jugadores"></div>
+  <button type="button" id="btn-competir">comenzar competencia</button>
+</form>
+
+<div id="resultados"></div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
